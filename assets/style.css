@@ -1,0 +1,26 @@
+
+body{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grid-container :first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div{
+    min-width: 50px;
+    min-height: 50px;
+    text-align: center;
+}
